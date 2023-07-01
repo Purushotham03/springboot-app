@@ -39,6 +39,7 @@ node {
     stage ('Docker run') {
 
         image.run("-p 8085:8085 --rm --name myContainer")
+        //ADDED line
 
     }
 }
